@@ -3,7 +3,7 @@ import requests
 
 def send_payload(resident_id, resident_room, pet_id, pet_name):
     # Replace with your web service URL
-    url = "http://example.com/api/endpoint"
+    url = "http://192.168.1.236:5000/api/receive"
 
     # Construct the JSON payload
     payload = {
